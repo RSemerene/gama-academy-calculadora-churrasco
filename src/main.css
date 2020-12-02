@@ -1,0 +1,59 @@
+label, h4,h5,h2{
+    color: #fff;
+}
+
+
+body{
+    margin-top: 20px;
+    background-color:  #029;
+  
+}
+
+.container {
+    background-color: #731AB7;
+    padding: 50px;
+    height: 100vh;
+}
+
+.bebidas {
+    margin-top: 30px;
+}
+
+h2,h5{
+    text-align: center;
+}
+
+h2{
+padding-bottom: 50px;
+}
+
+p{
+    font-size: 18px;
+    color: #fff;
+}
+
+button{
+ display: flex;
+ justify-content: center;
+ width: 314px;
+ height: 77px;
+ background-color: #63dc3e;
+ color: #731ab7;
+font-weight: bold;
+}
+
+#botaoCalcular{
+    
+    font-size: 39px;
+    align-self: center;
+
+}
+
+h6{
+    padding-left: 54px;
+    font-weight: normal;
+}
+
+h4{
+    text-align: center;
+}
