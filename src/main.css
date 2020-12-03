@@ -59,6 +59,7 @@ h4{
 .botoes{
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .resultado{
@@ -81,4 +82,18 @@ h4{
     align-items: center;
     margin-bottom: 15px;
 
+}
+
+@media only screen and (max-width:600px) {
+    .resp{
+        display: flex;
+        justify-content: center;
+        margin: 6px 0px 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h4{
+        padding-bottom: 15px;
+    }
 }
