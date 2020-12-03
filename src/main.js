@@ -25,7 +25,7 @@ const calcularChurrasco = () => {
     const totalBebidasNaoAlcoolicas = bebidasNaoAlcoolicas ? 500 * Number(bebidasNaoAlcoolicas) : 0
     
     // 500ml de bebida alcoolica para cada pessoa :'D
-    const totalBebidasAlcoolicas = bebidasAlcoolicas ? 500 * Number(bebidasAlcoolicas) : 0
+    const totalBebidasAlcoolicas = bebidasAlcoolicas ? 1500 * Number(bebidasAlcoolicas) : 0
 
     
 
