@@ -4,15 +4,13 @@ label, h4,h5,h2{
 
 
 body{
-    margin-top: 20px;
-    background-color:  #029;
-  
+    background-color: #63dc3e;
 }
 
 .container {
     background-color: #731AB7;
     padding: 50px;
-    height: 100vh;
+    
 }
 
 .bebidas {
@@ -50,10 +48,37 @@ font-weight: bold;
 }
 
 h6{
-    padding-left: 54px;
+    padding-left: 4px;
     font-weight: normal;
 }
 
 h4{
     text-align: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.caixa{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+}
+
+.acom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
 }
